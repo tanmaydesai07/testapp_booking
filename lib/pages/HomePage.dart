@@ -7,9 +7,16 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Page"),
-        centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 150, 190, 19),
+        title: Text("Admin Page",
+        
+        textAlign: TextAlign.left ,
+        ),
+        titleTextStyle: TextStyle(
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+          color: Colors.white
+        ) ,
+        backgroundColor: Colors.black,
       ),
      
     );

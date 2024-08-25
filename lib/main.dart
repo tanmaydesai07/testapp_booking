@@ -4,7 +4,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:testapp_booking/firebase_options.dart';
 import 'package:testapp_booking/pages/HomePage.dart';
 import 'package:testapp_booking/pages/login.dart';
-import 'package:testapp_booking/pages/mainHome.dart';
+import 'package:testapp_booking/pages/bottomnav.dart';
 
 Future<void> main() async {
   
